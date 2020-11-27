@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * Class {{ class }}
+ *
+ * @package {{ namespace }}
+ *
+ * @property integer $id
+ */
+class {{ class }} extends Model
+{
+    use HasFactory;
+}
